@@ -11,7 +11,7 @@ const PictureList = [
 	},
 	{
 		id: 2,
-		url: "https://res.cloudinary.com/dytnpjxrd/image/upload/v1608394828/mycar_nt9da2.jpg",
+		url: "https://res.cloudinary.com/dytnpjxrd/image/upload/v1604688097/form-background_otldij.jpg",
 	},
 	{
 		id: 3,
@@ -22,6 +22,8 @@ const PictureList = [
 //wrappped in a fragment because we are nesting several divs
 
 //we return the image in the usedrop component to be able to make each draggable
+
+//we pass in the id for unique identification and url as props because we are creating a picture and we need the url as img src
 const DragnDrop = () => {
 	return (
 		<>
